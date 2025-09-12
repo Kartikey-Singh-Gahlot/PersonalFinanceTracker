@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+.pages{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(90deg, #6f0000, #8e0a1d, #6f0000);
+    color : white
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #a90d24;
+     box-shadow: 5px 5px 20px black;
+     border: 1px solid white;
+     border-radius: 10px;
+}
+
+.inputFeilds{
+    border:1px solid white;
+    text-align: center;
+    padding: 3px 10px;
+    width: full;
+}
+
+.inputFeildsWrappers{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.transactionCard{
+    box-shadow: 5px 5px 20px black;
+    background-color: #a90d24;
+    border-radius: 10px;
+
+}
+
+.transactionCard:hover{
+    background-color: black;
+}
+
+
+label{
+    font-size: 12px;
+}
+
