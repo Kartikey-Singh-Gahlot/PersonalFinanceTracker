@@ -74,11 +74,11 @@ export default function EditTransaction(){
                       </select>
                   </div>
 
-                  <button type="submit" className="w-full bg-blue-600 border-[1px] border-[#ffffff57] rounded-2xl my-5 py-1  shadow-[0px_2px_5px_black] hover:bg-black">Submit</button>
+                  <button type="submit" className="w-full bg-blue-600 border-[1px] border-[black] rounded-[4px] my-5 py-1  shadow-[0px_2px_5px_black] hover:bg-black">Submit</button>
 
                    <div className="w-full flex justify-around">
-                    <button type="button" className="text-[12px]"><Link to={`/`}            className="flex gap-1"><img   className="h-4" src="/backIcon.png"/>{`Go Back`}</Link></button>
-                    <button type="button" className="text-[12px]"><Link to={`/${id}/delete`} className="flex gap-1"><img  className="h-4" src="/deleteIcon.png"/>{`Delete`}</Link></button>
+                    <button type="button" className="text-[12px]"><Link to={`/`}            className="flex gap-1 underline"><img   className="h-4" src="/backIcon.png"/>{`Go Back`}</Link></button>
+                    <button type="button" className="text-[12px]"><Link to={`/${id}/delete`} className="flex gap-1 underline"><img  className="h-4" src="/deleteIcon.png"/>{`Delete`}</Link></button>
                    </div>
                 
             </form>

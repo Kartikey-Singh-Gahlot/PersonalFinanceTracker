@@ -6,23 +6,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background:linear-gradient(90deg, #6f0000, #8e0a1d, #6f0000);
-    color : white
+    background-color:burlywood;
+    font-family: "Roboto Mono", monospace;
 }
 
 .forms{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #a90d24;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 10px 20px;
+     background-color:antiquewhite;
      box-shadow: 5px 5px 20px black;
      border: 1px solid white;
      border-radius: 10px;
+     transition: 200ms ease-in-out;
+}
+
+.forms:hover{
+    transform: scale(1.01);
 }
 
 .inputFeilds{
-    border:1px solid white;
+    border-bottom:1px solid black;
     text-align: center;
     padding: 3px 10px;
     width: full;
@@ -36,13 +41,14 @@
 
 .transactionCard{
     box-shadow: 5px 5px 20px black;
-    background-color: #a90d24;
-    border-radius: 10px;
-
+    background-color:antiquewhite;
+    backdrop-filter: blur(2px);
+    border-radius: 10px; 
+    transition: 200ms ease-in-out;
 }
 
 .transactionCard:hover{
-    background-color: black;
+    transform: scale(1.01);
 }
 
 
