@@ -54,9 +54,9 @@ export default function AddTransaction(){
                <div className="inputFeildsWrappers">
                     <label htmlFor="">Catergory</label>
                     <select onChange={trgrChange}  name="category" className=" inputFeilds  md:w-[400px] w-[200px]" value={transactionData.category}>
-                           <option value="Income" className="w-full text-center bg-black" >Income</option>
-                           <option value="Expense" className="w-full text-center bg-black" >Expense</option>
-                           <option value="Saving" className="w-full text-center bg-black" >Saving</option>
+                           <option value="Income"   className="w-full text-center" >Income</option>
+                           <option value="Expense"  className="w-full text-center" >Expense</option>
+                           <option value="Saving"   className="w-full text-center" >Saving</option>
                      </select>
                </div>
                
