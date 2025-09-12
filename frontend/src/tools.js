@@ -1,1 +1,1 @@
-export const backendUrl = "http://localhost:8080/transactions"
+export const backendUrl = "https://personal-finance-tracker-backend-tau.vercel.app/transactions"
