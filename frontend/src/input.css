@@ -22,9 +22,6 @@
      transition: 200ms ease-in-out;
 }
 
-.forms:hover{
-    transform: scale(1.01);
-}
 
 .inputFeilds{
     border-bottom:1px solid black;

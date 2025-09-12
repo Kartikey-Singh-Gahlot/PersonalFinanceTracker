@@ -50,7 +50,7 @@ export default function EditTransaction(){
   
 
     return(
-        <div className="pages">
+        <div className="pages flex flex-col gap-10">
             <h1 className="text-2xl py-5">Edit Transaction</h1>
             <form className="forms" onSubmit={(e)=>{trgrSubmission(e)}}>
 
@@ -74,7 +74,7 @@ export default function EditTransaction(){
                       </select>
                   </div>
 
-                  <button type="submit" className="w-full bg-blue-600 border-[1px] border-[black] rounded-[4px] my-5 py-1  shadow-[0px_2px_5px_black] hover:bg-black">Submit</button>
+                  <button type="submit" className="w-full bg-black  text-white rounded-[4px] my-5 py-1  shadow-[0px_2px_5px_black] hover:scale-[1.01] transition-[200ms_ease-in-out]">Submit</button>
 
                    <div className="w-full flex justify-around">
                     <button type="button" className="text-[12px]"><Link to={`/`}            className="flex gap-1 underline"><img   className="h-4" src="/backIcon.png"/>{`Go Back`}</Link></button>

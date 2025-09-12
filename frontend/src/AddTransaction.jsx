@@ -37,7 +37,7 @@ export default function AddTransaction(){
 
 
     return (
-        <div className="pages">
+        <div className="pages flex flex-col gap-10">
           <h1 className="text-2xl py-5">Add Transaction</h1>
           <form action="" className="forms" onSubmit={(e)=>{ trgrSubmission(e)}}>
                 <div className="inputFeildsWrappers">
@@ -61,11 +61,11 @@ export default function AddTransaction(){
                </div>
                
                      
-                <button type="submit" className="w-full bg-blue-600 border-[1px] border-[#ffffff57] rounded-2xl my-5 py-1  shadow-[0px_2px_5px_black] hover:bg-black">Submit</button>
+                <button type="submit" className="w-full bg-black  text-white rounded-[4px] my-5 py-1  shadow-[0px_2px_5px_black] hover:scale-[1.01] transition-[200ms_ease-in-out]">Submit</button>
 
               
                 <div className="w-full flex ">
-                     <button type="button" className="text-[12px]"><Link to={`/`}>{`<< Go Back`}</Link></button>
+                     <button type="button" className="flex text-[12px]  hover:scale-[1.05] transition-[200ms_ease-in-out]"><img className="h-4" src="/backIcon.png"/><Link to={`/`} className="underline">{`Go Back`}</Link></button>
                 </div>
           </form>
         </div>

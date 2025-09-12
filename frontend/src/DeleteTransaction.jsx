@@ -38,7 +38,7 @@ export default function DeleteTransaction(){
     }
 
     return(
-       <div className="pages">
+       <div className="pages flex flex-col gap-10">
 
             <h1 className="text-2xl py-5">Delete Transaction</h1>
 
@@ -62,8 +62,8 @@ export default function DeleteTransaction(){
                   <div className="flex flex-col w-full gap-2 py-2 ">
                          <h1 className="text-nowrap text-[12px]">Confirm Delete ?</h1>                
                          <div className="flex justify-around w-full">
-                             <button type="button" className=" cursor-pointer text-[15px]  px-3 py-1 flex gap-1" onClick={trgrDelete}><img src="/rightIcon.png" className="h-5"/>Yes</button>
-                             <button type="button" className=" cursor-pointer text-[15px]  px-3 py-1" ><Link to={`/${id}/edit`} className="flex gap-1"><img src="/wrongIcon.png" className="h-5"/>No</Link></button>
+                             <button type="button" className="hover:scale-[1.05] hover:text-green-600 transition-[200ms_ease-in-out] underline cursor-pointer text-[15px]  px-3 py-1 flex gap-1" onClick={trgrDelete}><img src="/rightIcon.png" className="h-5"/>Yes</button>
+                             <button type="button" className="hover:scale-[1.05] hover:text-red-600   transition-[200ms_ease-in-out] underline cursor-pointer text-[15px]  px-3 py-1" ><Link to={`/${id}/edit`} className="flex gap-1"><img src="/wrongIcon.png" className="h-5"/>No</Link></button>
                          </div>
                   </div>
                   
