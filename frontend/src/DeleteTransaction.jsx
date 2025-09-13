@@ -62,8 +62,8 @@ export default function DeleteTransaction(){
                   <div className="flex flex-col w-full gap-2 py-2 ">
                          <h1 className="text-nowrap text-[12px]">Confirm Delete ?</h1>                
                          <div className="flex justify-around w-full">
-                             <button type="button" className="hover:scale-[1.05] hover:text-green-600 transition-[200ms_ease-in-out] underline cursor-pointer text-[15px]  px-3 py-1 flex gap-1" onClick={trgrDelete}><img src="/rightIcon.png" className="h-5"/>Yes</button>
-                             <button type="button" className="hover:scale-[1.05] hover:text-red-600   transition-[200ms_ease-in-out] underline cursor-pointer text-[15px]  px-3 py-1" ><Link to={`/${id}/edit`} className="flex gap-1"><img src="/wrongIcon.png" className="h-5"/>No</Link></button>
+                             <button type="button" className="hover:scale-[1.05] hover:text-green-600 transition-[200ms_ease-in-out] underline cursor-pointer text-[15px]  px-3 py-1 flex gap-1min-[780px]:text-[15px] items-center gap-2  bg-black   text-white rounded-[4px]" onClick={trgrDelete}><img src="/rightIcon.png" className="h-5"/>Yes</button>
+                             <button type="button" className="hover:scale-[1.05] hover:text-red-600   transition-[200ms_ease-in-out] underline cursor-pointer text-[15px]  px-3 py-1 min-[780px]:text-[15px]  flex items-center gap-2  bg-black text-white rounded-[4px]"  ><Link to={`/${id}/edit`} className="flex gap-1"><img src="/wrongIcon.png" className="h-5"/>No</Link></button>
                          </div>
                   </div>
                   

@@ -13,7 +13,7 @@ export default function Chart({chartData}){
 
   return(
     <>
-     <PieChart width={400} height={400} className="transactionCard mt-10 border-[1px] border-[#00000041]" >
+     <PieChart width={400} height={400} className="mx-5 my-10 shadow-[5px_5px_20px] rounded-[20px] border-[1px] border-[#00000041]" >
                 <Pie data={plottingData} cx="50%" cy="50%" outerRadius={100}  dataKey="value" label>
                      {plottingData.map((entry, index)=>{
                         return <Cell stroke="black" key={`cell-${index}`} fill={colorSchema[index % colorSchema.length]}/>
