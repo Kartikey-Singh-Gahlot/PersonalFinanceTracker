@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { backendUrl } from "./tools";
+import Chart from "./Chart";
 
 
 export default function Transaction(){
@@ -55,6 +56,11 @@ export default function Transaction(){
         </header>
 
          <main className="h-full w-full"> 
+
+              <section className=" w-full flex justify-center pt-2 pb-10">
+                       <Chart chartData={transactionData}/>
+              </section>
+
                <div className="h-full w-full flex min-[780px]:flex-row flex-col box-border px-2.5">
 
 
