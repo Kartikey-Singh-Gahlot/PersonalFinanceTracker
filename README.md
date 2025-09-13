@@ -35,7 +35,7 @@
   git clone https://github.com/Kartikey-Singh-Gahlot/PersonalFinanceTracker.git
 
   ## Navigate to project
-  cd personal=finance-tracker
+  cd personal-finance-tracker
 
   ## Install dependencies
    ### Frontend :-
