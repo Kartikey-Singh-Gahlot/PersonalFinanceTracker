@@ -13,7 +13,6 @@ app.use(cors( {origin: true,
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-
 setDbConnection().then(()=>{ console.log("Database Connected")}).catch((err)=>{ console.log(err)});
 
 app.use("/transactions",Routes)

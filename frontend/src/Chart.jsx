@@ -13,14 +13,14 @@ export default function Chart({chartData}){
 
   return(
     <>
-     <PieChart width={400} height={400} >
+     <PieChart width={400} height={400} className="transactionCard mt-10" >
                 <Pie data={plottingData} cx="50%" cy="50%" outerRadius={100}  dataKey="value" label>
                      {plottingData.map((entry, index)=>{
                         return <Cell stroke="black" key={`cell-${index}`} fill={colorSchema[index % colorSchema.length]}/>
                      })}
                 </Pie>
                 <Tooltip/>
-                <Legend  wrapperStyle={{fontSize: "12px", width:"100%", textAlign:"center"}}/>
+                <Legend  wrapperStyle={{fontSize: "12px", width:"100%", textAlign:"center", padding:"10px"}} layout="vertical"/>
      </PieChart>
     </>
   )

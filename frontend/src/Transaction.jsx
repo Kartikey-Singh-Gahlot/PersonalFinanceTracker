@@ -65,7 +65,7 @@ export default function Transaction(){
 
 
                       <div className="h-full w-full flex flex-col px-2">
-                          <h1 className="w-full text-center min-[780px]:text-2xl text-[18px] pt-10 pb-5">{`Income : ₹ ${ (transactionData.income.length>0)? transactionData.income.reduce((sum, val)=>{ return sum + Number(val.amount)},0):0 }`}</h1>
+                          <h1 className="w-full text-center min-[780px]:text-2xl text-[18px] mt-10 mb-5 transactionSections">{`Income : ₹ ${ (transactionData.income.length>0)? transactionData.income.reduce((sum, val)=>{ return sum + Number(val.amount)},0):0 }`}</h1>
                           <ul className="flex flex-col gap-5">
                              {
                               (transactionData.income.length>0)?
@@ -91,7 +91,7 @@ export default function Transaction(){
                       </div>
 
                       <div className="h-full w-full flex flex-col px-2">
-                          <h1 className="w-full text-center min-[780px]:text-2xl text-[18px] pt-10 pb-5">{`Expenses : ₹ ${ (transactionData.income.length>0)? transactionData.expense.reduce((sum, val)=>{ return sum + Number(val.amount)},0):0 }`}</h1>
+                          <h1 className="w-full text-center min-[780px]:text-2xl text-[18px] mt-10 mb-5 transactionSections">{`Expenses : ₹ ${ (transactionData.income.length>0)? transactionData.expense.reduce((sum, val)=>{ return sum + Number(val.amount)},0):0 }`}</h1>
                           <ul className="flex flex-col gap-5">
                             {
                              (transactionData.expense.length>0)?
@@ -117,7 +117,7 @@ export default function Transaction(){
                       </div>
                      
                       <div className="h-full w-full flex flex-col px-2">
-                        <h1 className="w-full text-center min-[780px]:text-2xl text-[18px] pt-10 pb-5">{`Saving : ₹ ${ (transactionData.income.length>0)? transactionData.saving.reduce((sum, val)=>{ return sum + Number(val.amount)},0):0 }`}</h1>
+                        <h1 className="w-full text-center min-[780px]:text-2xl text-[18px] mt-10 mb-5 transactionSections">{`Saving : ₹ ${ (transactionData.income.length>0)? transactionData.saving.reduce((sum, val)=>{ return sum + Number(val.amount)},0):0 }`}</h1>
                          <ul className="flex flex-col gap-5">
                           {
                            (transactionData.saving.length>0)?
