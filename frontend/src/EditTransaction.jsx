@@ -77,8 +77,8 @@ export default function EditTransaction(){
                   <button type="submit" className="w-full bg-black  text-white rounded-[4px] my-5 py-1  shadow-[0px_2px_5px_black] hover:scale-[1.01] transition-[200ms_ease-in-out]">Submit</button>
 
                    <div className="w-full flex justify-around">
-                    <button type="button" className="min-[780px]:text-[15px] text-[12px] flex items-center gap-2 cursor-pointer underline bg-black px-2 py-1  text-white rounded-[4px]"><Link to={`/`}            className="flex gap-1 underline items-center"><img   className="h-4" src="/backIcon.png"/>{`Go Back`}</Link></button>
-                    <button type="button" className="min-[780px]:text-[15px] text-[12px] flex items-center gap-2 cursor-pointer underline bg-black px-2 py-1  text-white rounded-[4px]"><Link to={`/${id}/delete`} className="flex gap-1 underline items-center"><img  className="h-4" src="/deleteIcon.png"/>{`Delete`}</Link></button>
+                    <button type="button" className="min-[780px]:text-[15px] text-[12px] flex items-center gap-2 cursor-pointer  bg-black px-2 py-1  text-white rounded-[4px]"><Link to={`/`}            className="flex gap-1 underline items-center"><img   className="h-4" src="/backIcon.png"/>{`Go Back`}</Link></button>
+                    <button type="button" className="min-[780px]:text-[15px] text-[12px] flex items-center gap-2 cursor-pointer  bg-black px-2 py-1  text-white rounded-[4px]"><Link to={`/${id}/delete`} className="flex gap-1 underline items-center"><img  className="h-4" src="/deleteIcon.png"/>{`Delete`}</Link></button>
                    </div>
                 
             </form>
