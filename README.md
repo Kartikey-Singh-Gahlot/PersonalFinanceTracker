@@ -7,10 +7,10 @@
 
 # Live 
 [Visit The Site ](https://personal-finance-tracker-frontend-eight.vercel.app/)
-![](./appSreenshot1)
-![](./appSreenshot2)
-![](./appSreenshot3)
-![](./appSreenshot4)
+![one](./appSreenshot1)
+![two](./appSreenshot2)
+![three](./appSreenshot3)
+![four](./appSreenshot4)
 
 
 # Features
