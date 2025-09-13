@@ -65,7 +65,7 @@ export default function AddTransaction(){
 
               
                 <div className="w-full flex ">
-                     <button type="button" className="flex text-[12px]  hover:scale-[1.05] transition-[200ms_ease-in-out]"><img className="h-4" src="/backIcon.png"/><Link to={`/`} className="underline">{`Go Back`}</Link></button>
+                     <button type="button" className="flex text-[12px]  hover:scale-[1.05] transition-[200ms_ease-in-out] min-[780px]:text-[15px] items-center gap-2 cursor-pointer bg-black px-2 py-1  text-white rounded-[4px]"><img className="h-4" src="/backIcon.png"/><Link to={`/`} className="underline">{`Go Back`}</Link></button>
                 </div>
           </form>
         </div>

@@ -50,7 +50,7 @@ export default function Transaction(){
                     } `}
                 </h1> 
 
-                <button className="bg-white px-2 py-1 rounded-[4px] hover:bg-[antiquewhite] text-black"><Link className="flex items-center gap-1 underline hover:scale-[1.01] transition-[100ms_ease-in-out] min-[780px]:text-[15px] text-[12px] text-nowrap" to={'/add'}><img src="/addIcon.png" className="h-5"/>Add</Link></button> 
+                <button className="bg-white px-2 py-1 rounded-[4px] hover:bg-[antiquewhite] text-black"><Link className="flex items-center gap-1 hover:scale-[1.01] transition-[100ms_ease-in-out] min-[780px]:text-[15px] text-[12px] text-nowrap" to={'/add'}><img src="/addIcon.png" className="h-5"/>Add</Link></button> 
 
                
         </header>
@@ -80,7 +80,7 @@ export default function Transaction(){
                                          </ul>
                                          <div className="w-full flex justify-between  py-1 px-2">
                                                 <button className="min-[780px]:text-[15px] text-[12px]">{`Amount : ₹ ${i.amount} `}</button>
-                                                <button className="min-[780px]:text-[15px] text-[12px] flex items-center gap-2 cursor-pointer underline bg-black px-2 py-1  text-white rounded-[4px]" onClick={()=>{ trgrEdit(i._id)}}><img src="/editIcon.png" className="h-4"/>Edit</button>
+                                                <button className="min-[780px]:text-[15px] text-[12px] flex items-center gap-2 cursor-pointer bg-black px-2 py-1  text-white rounded-[4px]" onClick={()=>{ trgrEdit(i._id)}}><img src="/editIcon.png" className="h-4"/>Edit</button>
                                          </div>
                                          </li>);
                                }):<h1 className="w-full text-center">No Income</h1>
@@ -106,7 +106,7 @@ export default function Transaction(){
                                        </ul>
                                         <div className="w-full flex justify-between  py-1 px-2">
                                                <button className="min-[780px]:text-[15px] text-[12px]">{`Amount : ₹ ${i.amount}`}</button>
-                                               <button className="min-[780px]:text-[15px] text-[12px] flex items-center gap-2 cursor-pointer underline bg-black px-2 py-1  text-white rounded-[4px]" onClick={()=>{ trgrEdit(i._id)}}><img src="/editIcon.png" className="h-4"/>Edit</button>
+                                               <button className="min-[780px]:text-[15px] text-[12px] flex items-center gap-2 cursor-pointer  bg-black px-2 py-1  text-white rounded-[4px]" onClick={()=>{ trgrEdit(i._id)}}><img src="/editIcon.png" className="h-4"/>Edit</button>
                                         </div>
                                         </li>);
                                }):<h1 className="w-full text-center">No Expense</h1>
@@ -132,7 +132,7 @@ export default function Transaction(){
                                         </ul>
                                         <div className="w-full flex justify-between  py-1 px-2">
                                               <button className="min-[780px]:text-[15px] text-[12px] ">{`Amount : ₹ ${i.amount} `}</button>
-                                              <button className="min-[780px]:text-[15px] text-[12px] flex items-center gap-2 cursor-pointer underline bg-black px-2 py-1  text-white rounded-[4px]" onClick={()=>{ trgrEdit(i._id)}}><img src="/editIcon.png" className="h-4"/>Edit</button>
+                                              <button className="min-[780px]:text-[15px] text-[12px] flex items-center gap-2 cursor-pointer  bg-black px-2 py-1  text-white rounded-[4px]" onClick={()=>{ trgrEdit(i._id)}}><img src="/editIcon.png" className="h-4"/>Edit</button>
                                         </div>
                                         </li>);
                                }):<h1 className="w-full text-center">No Saving</h1>
