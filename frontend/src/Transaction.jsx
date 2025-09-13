@@ -38,7 +38,7 @@ export default function Transaction(){
     return(
       <div className="pages overflow-x-hidden">
 
-        <header className="w-full flex justify-between items-center sticky top-0.1 py-3 px-3 shadow-[0px_1px_10px_black] border-[1px] border-black">
+        <header className="w-full flex justify-between items-center sticky top-0.1 py-3 px-3 shadow-[0px_1px_10px_black] border-[1px] border-black bg-black text-amber-50">
                 <h1 className="min-[780px]:text-[15px] text-[12px] text-nowrap">{ `Overall : ₹ 
                     ${ 
                       (transactionData.income.length>0 || transactionData.expense.length>0 || transactionData.saving.length>0) ? 
