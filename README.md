@@ -46,7 +46,7 @@
   ### Backend :-
   - cd backend
   - npm install
-  - npm install -g noodemon index.js
+  - npm install -g noodemon 
   - nodemon index.js
     
 
