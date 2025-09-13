@@ -26,5 +26,47 @@
 
 - Frontend: ReactJS, React Router DOM
 - Backend: Node.js, Express.js
-- Database: MongoDB (Mongoose ODM)
+- Database: MongoDB
+
+
+# Setup
+
+  ## Clone the repository
+  git clone https://github.com/Kartikey-Singh-Gahlot/PersonalFinanceTracker.git
+
+  ## Navigate to project
+  cd personal=finance-tracker
+
+  ## Install dependencies
+   ### Frontend :-
+   - cd frontend
+   - npm install
+   - npm run dev
+
+  ### Backend :-
+  - cd backend
+  - npm install
+  - npm install -g noodemon index.js
+  - nodemon index.js
+    
+
+# Endpoints 
+
+  ## Frontend 
+  - "/" -> Homepage
+  - "/add" -> Form to add new transaction
+  - "/:id/edit -> Form to edit an existing transaction
+  - "/:id/delete -> Deletion of transaction confirmation page
+    
+
+  ## Backend ( Base_URL : https://personal-finance-tracker-backend-tau.vercel.app/transactions )
+    
+  - "GET" : Base_URL / -> Fetches all transactions
+  - "POST" : Base_URL / -> Adds new transaction
+
+  - "GET" : Base_URL /:id -> Fetches a single transaction
+  - "PUT" : Base_URL /:id -> Edit a single transaction
+  - "DELETE" : Base_URL /:id -> Delete a single transaction
+  
+
   
